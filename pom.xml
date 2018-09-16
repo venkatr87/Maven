@@ -15,4 +15,16 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>veeresh-releases</name>
+        <url>https://veeresh.jfrog.io/veeresh/Maven_local</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>veeresh-snapshots</name>
+        <url>https://veeresh.jfrog.io/veeresh/Maven_local</url>
+    </snapshotRepository>
+</distributionManagement>
 </project>
