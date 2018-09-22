@@ -19,16 +19,16 @@
     <maven.compiler.source>1.6</maven.compiler.source>
     <maven.compiler.target>1.6</maven.compiler.target>
   </properties>
-  <distributionManagement>
+ <distributionManagement>
     <repository>
         <id>central</id>
-        <name>veeresh-releases</name>
-        <url>https://veeresh.jfrog.io/veeresh/Maven_local</url>
+        <name>server8848-releases</name>
+        <url>https://server8848.jfrog.io/server8848/Banking_1</url>
     </repository>
     <snapshotRepository>
         <id>snapshots</id>
-        <name>veeresh-snapshots</name>
-        <url>https://veeresh.jfrog.io/veeresh/Maven_local</url>
+        <name>server8848-snapshots</name>
+        <url>https://server8848.jfrog.io/server8848/Banking_1</url>
     </snapshotRepository>
 </distributionManagement>
 </project>
